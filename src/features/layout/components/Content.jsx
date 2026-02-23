@@ -14,7 +14,7 @@ export const Content = () => {
 <div className="col-md-6">
   <div className="card shadow-sm h-100">
     <img 
-  src="./img/audifonos buenos.png"
+  src={`${import.meta.env.BASE_URL}img/audifonos buenos.png`}
   className="card-img-top"
   style={{ height: "400px", objectFit: "cover" }}
   alt="Audífonos"
@@ -41,7 +41,7 @@ export const Content = () => {
   <div className="card shadow-sm h-100">
     <div className="card-body">
 <img 
-  src="./img/teclado bueno.png"
+  src={`${import.meta.env.BASE_URL}img/teclado bueno.png`}
   className="card-img-top"
   style={{ height: "400px", objectFit: "cover" }}
   alt="Teclado"
@@ -67,7 +67,7 @@ export const Content = () => {
     <div className="card shadow-sm h-100">
       <div className="card-body">
 <img 
-  src="./img/mouse bueno.png"
+  src={`${import.meta.env.BASE_URL}img/mouse bueno.png`}
   className="card-img-top"
   style={{ height: "300px", objectFit: "cover" }}
   alt="Mouse"/>
@@ -92,7 +92,7 @@ export const Content = () => {
   <div className="card shadow-sm h-100">
     <div className="card-body">
 <img 
-  src="./img/monitor bueno.png"
+  src={`${import.meta.env.BASE_URL}img/monitor bueno.png`}
   className="card-img-top"
   style={{ height: "300px", objectFit: "cover" }}
   alt="Monitor"/>
@@ -118,7 +118,7 @@ export const Content = () => {
     <div className="card-body">
 
 <img 
-  src="./img/silla buena.png"
+  src={`${import.meta.env.BASE_URL}img/silla buena.png`}
   className="card-img-top"
   style={{ height: "400px", objectFit: "cover" }}
   alt="Silla"/>
@@ -145,7 +145,7 @@ export const Content = () => {
     <div className="card-body">
 
 <img 
-  src="./img/tablet buena.png"
+  src={`${import.meta.env.BASE_URL}img/tablet buena.png`}
   className="card-img-top"
   style={{ height: "400px", objectFit: "cover" }}
   alt="Tablet"/>
